@@ -1,7 +1,7 @@
 import requests
 
 pid = 32768
-url = "http://bagel.htb:8000/?page=../../../../proc/"
+url = input("What is the url? (remember to put /proc at the end!): ")
 
 
 for i in range(0, pid):
